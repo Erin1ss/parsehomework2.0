@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 import os
 
 # Authorized user IDs
-AUTHORIZED_USERS = [1059096280]  # Replace with the actual Telegram user ID(s)
+AUTHORIZED_USERS = [UserID]  # Replace with the actual Telegram user ID(s)
 
 # Function to read the content of a file
 def read_homework(day_file):
