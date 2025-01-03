@@ -50,7 +50,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Main function to set up the bot
 def main():
     # Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your bot token
-    application = ApplicationBuilder().token("7901658924:AAHvoH3jpA9iuAgMPq3_sHP4WS7RgQTvf50").build()
+    application = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(button))
