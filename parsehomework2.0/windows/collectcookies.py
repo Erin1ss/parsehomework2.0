@@ -2,7 +2,7 @@ from selenium import webdriver
 import json
 import os
 
-COOKIES_FILE = "C:\minecraft\cookies.json"
+COOKIES_FILE = "C:\cookies.json"
 
 def save_cookies_to_file(cookies, filename):
     """Save cookies to a JSON file."""
